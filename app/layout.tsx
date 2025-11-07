@@ -28,6 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
+      </head>
       <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased`}>
         {children}
         <Analytics />
